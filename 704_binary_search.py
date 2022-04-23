@@ -13,7 +13,7 @@ class Solution:
         print(end)
         print(center)
         if nums[center]== target:
-          return center;
+          return center
         elif nums[center]>target:
           end=center
         else:
