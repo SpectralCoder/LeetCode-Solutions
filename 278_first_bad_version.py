@@ -14,7 +14,7 @@ class Solution:
 
             print(check)
             if check == False and checkAfter == True :
-                return center+1;
+                return center+1
             elif check == True and checkBefore == False:
                 return center
             elif check == False:
